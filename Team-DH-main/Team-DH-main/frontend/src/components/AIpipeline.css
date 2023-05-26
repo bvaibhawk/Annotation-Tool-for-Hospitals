@@ -1,0 +1,94 @@
+.cv-pipeline {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cv-pipeline-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cv-pipeline-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.cv-pipeline-form {
+  margin-right: 20px;
+}
+
+.cv-pipeline-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cv-pipeline-form select {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.cv-pipeline-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cv-pipeline-form button:hover {
+  background-color: #3e8e41;
+}
+
+.cv-pipeline-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cv-pipeline-steps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cv-pipeline-step {
+  border: 1px solid #ccc;
+  background-color: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.cv-pipeline-footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cv-pipeline-footer button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cv-pipeline-footer button:hover {
+  background-color: #3e8e41;
+}
+
+.cv-pipeline-footer button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,33 @@
+.annotation-list-container {
+  height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.annotation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.annotation-list li {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.annotation-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.annotation-list li.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.annotation-list-wrapper {
+  width: 300px;
+}

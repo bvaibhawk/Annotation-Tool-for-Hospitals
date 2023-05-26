@@ -1,0 +1,46 @@
+.project-management-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-list-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.task-list-container {
+  flex: 2;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-list li {
+  cursor: pointer;
+  margin-bottom: 2px;
+  padding: 1px;
+  border-radius: 1px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.project-list li.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}

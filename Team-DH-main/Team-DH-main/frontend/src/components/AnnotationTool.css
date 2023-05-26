@@ -1,0 +1,52 @@
+.annotation-tool-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.canvas-container {
+  position: relative;
+  margin-right: 20px;
+}
+
+.tool-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-box button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+}
+
+.tool-box button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.text-input {
+  margin-top: 10px;
+}
+
+.text-input input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
